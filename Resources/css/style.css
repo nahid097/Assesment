@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    position: relative;
+}
+ul li{
+    list-style-type: none;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Jadoo */
+.logo {
+    position: absolute;
+width: 114.91px;
+height: 33.99px;
+left: 140.92px;
+top: 48.7px;
+}
+
+ /* Top Nav */
+ 
+.top-nav{
+    float: right;
+    
+
+}
+
+.top-nav li{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.top-nav li:first-child{
+    margin-left: 0;
+
+}
+
+.top-nav li a:link,
+.top-nav li a:visited{
+    color:#212832;
+    text-decoration: none;
+    
+}
+
+.tagline{
+    position:absolute;
+    top: 240px;
+    left: 30%;
+    transform: translate(-50%,-50% );
+    text-align: center;
+    color: #DF6951;
+    text-transform: uppercase;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+}
+
+.heading{
+    position:absolute;
+    top: 350px;
+    left: 30%;
+    transform: translate(-50%,-50% );
+    text-align: center;
+
+    font-family: Volkhov;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+     color: #181E4B;
+
+}
+.Desc{
+    position:absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50% );
+    text-align: center;
+    color: #5E6282;
+    font-size: 16px;
+line-height: 15px;
+font-weight: 500;
+}
