@@ -6,6 +6,7 @@
 }
 header {
     position: relative;
+    height: 75vh;
 }
 ul li{
     list-style-type: none;
@@ -49,6 +50,9 @@ top: 48.7px;
     text-decoration: none;
     
 }
+#lang{
+    text-decoration: none;
+}
 
 .tagline{
     position:absolute;
@@ -91,4 +95,25 @@ line-height: 30px;
     font-size: 16px;
 line-height: 15px;
 font-weight: 500;
+}
+
+.btn-rectengle{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+.pds{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+#pln1{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+#tv{
+    position: absolute;
+    top: 60%;
+    left: 35%;
 }
